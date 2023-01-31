@@ -84,7 +84,7 @@ struct Calculator {
             number = existingExpression.evaluate(with: number)
         }
         expression = ArithmeticExpression(number: number, operation: operation)
-        newNumber = nil
+        newNumber = 0
     }
     
     mutating func toggleSign() {
